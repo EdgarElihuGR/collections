@@ -1,0 +1,21 @@
+.Item {
+  height: 50vh;
+}
+
+.Item__bg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px;
+  height: 30vh;
+  background-color: #83C9B1;
+}
+
+.Item__bg > img {
+  width: 50%;
+  max-width: 300px;
+}
+
+.Label {
+  color: white;
+}
