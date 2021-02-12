@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import AlbumDetails from './pages/AlbumDetails';
+import AlbumNew from './pages/AlbumNew';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AlbumDetails />
+    <AlbumNew />
   </React.StrictMode>,
   document.getElementById('root')
 );
