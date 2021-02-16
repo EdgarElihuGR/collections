@@ -1,0 +1,27 @@
+.Albums__header {
+  display: flex;
+  justify-content: center;
+}
+
+.Albums__container {
+  display: flex;
+  background: #21222E;
+  border-radius: 3px;
+}
+
+.Albums__buttons {
+  display: flex;
+}
+
+.Albums__buttons a {
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 3px;
+  color: white;
+  background: #5C61FF;
+}
+
+.Albums__list {
+  flex-grow: 1;
+  color: white;
+}
